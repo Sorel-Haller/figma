@@ -109,11 +109,11 @@ footer{
     bottom: 0;
 }
 
-.footer-items {
+.footer-items {    
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     max-width: 991px;
     padding: 150px 0px 150px 0px;
     margin-right: auto;
@@ -125,7 +125,7 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     min-height: 267px;
-    max-width: 582px;
+    max-width: 100%;
     gap: 10px;
 }
 
