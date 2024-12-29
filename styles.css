@@ -97,6 +97,20 @@ body {
     text-decoration-skip-ink: none;
 
 }
+.features-screen{
+    margin-top: 52px;
+    margin-bottom: 52px;
+    max-width: 1177.34px;
+    max-height: 658.3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features-screen img{
+    max-width: 100%;
+    height: auto;
+}
+
 
 /* footer */
 
