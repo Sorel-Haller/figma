@@ -1,57 +1,115 @@
 
 body {
-    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     margin: 0;
     padding: 0;
   }
 
-.header{
-    background-image: url(https://s3-alpha-sig.figma.com/img/85c4/0041/80b7ece24a3d47292461f8e199ffdd36?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qTy6gzwDQwIupsw-MmQXDZFS8h6mhkn6DNoHymJGRGAOE3VNLC3p~1q1QP6cqWLV49cuwQlSza5fQk~kI1z~c6Qudlu6cJJ~ow5hfAdCn~L-RFdOs3ANjiOhBNjNbHfSAlBBJlb~2xxUpGMvDGRlTyJWxuubAK45zEWub~Vn9Z8lvSOdkhYCVMH19V2A28fmfRPIDbb~nBdSCGKVdOWxn-oVY3vhLP288whxNngjjjYso8D5WEF4BpPeGLgcpZHwfopf8vdpDs2KzHM3KDuIW4N9vGngJNlHfTjh6BqaYCYwykXPXt9gl7X7uiPqYviPYgNCo6bbbLXRozMLzgfFgg__);
-    max-width: 100%;
-    height: 930px;
+@media (max-width: 47.5em) {
+    footer {
+        text-align: center;
+
+    }
+    .footer-items {
+        display: grid;
+        grid-template-columns: 1fr;        
+    }
+}
+/* main */
+
+/* features */
+
+.feature {
+    width: 100%;
+    height: 1,362.3px;
+    background-color: aliceblue;
 }
 
-.desktop-navbar {
-    display: flex;
-    align-items: center;
-    background-color: rgba(56, 162, 255, 0.255);
-    height: 156px;
-    max-width: 1210px;
-    margin-left: auto;
+/* footer */
+
+footer{ 
+    position: absolute;   
+    background: #252B42;
+    background-position: center;
+    background-size: 1777px 567px;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-items {
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    max-width: 991px;
+    padding: 150px 0px 150px 0px;
     margin-right: auto;
+    margin-left: auto;
 }
 
-.desktop-menu {
+.footer-menu {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 437px;
-    height: 48px;
-    top: 53.5px;
-    margin-left: 40px;
-    gap: 21px;
-}
-
-.text-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 48px;
-    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 267px;
+    max-width: 582px;
     gap: 10px;
 }
 
-.text-link a {
-    text-decoration: none;
-    font-family: Graphik;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0.2px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    height: 28px;
+.footer-item {
+    width: 180px;
     color: white;
 }
+
+.pages {
+    width: 170px;
+}
+
+.footer-item ul {     
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-item li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.footer-row{  
+    max-width: 284px;
+    height: 193.99px;
+    gap: 10px;
+    color: white;
+}
+
+.footer-block-1{
+    max-width: 284px;
+    height: 46px;
+}
+.footer-block-2{
+    max-width: 161px;
+    height: 47px;
+}
+
+.footer-social-media {
+    width: 170.96px;
+    height: 80.99px;
+    gap: 24px;
+
+}
+
+.footer-social-media a{
+    color: white;
+}
+
+.social-media-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40.99px;
+    padding: 20px 0px 20px 0px;
+    gap: 24px;
+    font-size: 40.99px;
+}
+
